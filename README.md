@@ -11,7 +11,7 @@ The implemented algorithms include:
 - Selection Sort  
 - Quick Sort  
 - Merge Sort  
-- Heap Sort  
+- Heap Sort   
 - Shell Sort  
 - radix Sort
 - Comb Sort
@@ -54,8 +54,8 @@ SortingProject/
 │
 ├── gnuplot/
 │   ├── plot.gnu              # Plot of all algorithms
-│   ├── plot2.gnu             # Plot of O(n²) weak algorithms
-│   └── plot3.gnu             # Plot of detailed comparison of all algorithms
+│   ├── plot2.gnu             # Plot of O(n²) algorithms
+│   └── plot3.gnu             # Plot of O(nlogn) algorithms
 │
 ├── Makefile                  # Build + clean commands
 └── README.md                 # Project documentation
@@ -86,8 +86,8 @@ The program will:
 The project includes three plotting scripts.
 
 - Plot all algorithms : gnuplot gnuplot/plot.gnu
-- Plot of O(n²) weak algorithms (Bubble, Insertion, Selection) : gnuplot gnuplot/plot2.gnu
-- Plot of detailed comparison of all algorithms : gnuplot gnuplot/plot3.gnu
+- Plot of O(n²) algorithms (Bubble, Insertion, Selection) : gnuplot gnuplot/plot2.gnu
+- Plot of Plot of O(nlogn) algorithms : gnuplot gnuplot/plot3.gnu
 
 ----------
 
